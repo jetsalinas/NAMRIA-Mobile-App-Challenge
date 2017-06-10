@@ -1,4 +1,4 @@
-package namria.forsea;
+package namria.forsea.primary;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+import namria.forsea.R;
 
 public class MainMap extends FragmentActivity implements OnMapReadyCallback {
 
@@ -23,7 +25,6 @@ public class MainMap extends FragmentActivity implements OnMapReadyCallback {
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
-
 
     /**
      * Manipulates the map once available.
