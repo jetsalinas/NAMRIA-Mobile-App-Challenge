@@ -12,7 +12,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import namria.forsea.R;
 
-public class MainMap extends FragmentActivity implements OnMapReadyCallback {
+public class ActivityMainMap extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
