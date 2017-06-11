@@ -38,6 +38,13 @@
             android:value="@integer/google_play_services_version" />
 
 
+        <!-- Services declaration -->
+        <service android:name=".network.NetworkService">
+            <intent-filter>
+                <action android:name="namria.forsea.network.GET_NETWORK_DATA_INTENT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name=".primary.ActivityMainMap"
             android:label="@string/title_activity_main_map">
